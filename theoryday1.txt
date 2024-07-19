@@ -1,0 +1,155 @@
+print-for printing stuff
+print("helloworld")
+variable name
+var 1= "python"
+print("good morning",var1)
+name=input("Enter your name")
+name is a variable ; we store stuff in variable
+we are taking input from user by using input
+fstring- formatted string 
+age=20
+name=anagha
+print(f"hello )
+maps are used for taking input once and for ALL
+name="hello"
+print(name,end=" ")
+print(name)
+end is used for formatting desired output formatt
+f string-formatted string
+
+
+conditional statements:
+
+checking the conditions of the statements
+if,else if,else,nested if and nested elif
+
+
+control statements
+
+controls the whole program
+
+operators-unary,binary
+2 or more operands
+unary-operation on single operands
+arithmetic,assignment,logical,bitwise,ternary,relational
+arithmetic  : add,sub,mul,div,mod(used for huge input)
+
+
+
+********binary search**********very important 
+
+
+operators math module-power operator.
+2**5=32
+
+logical operator-
+logical AND- only if both conditions is true
+logical OR- if one condition is true , result is true
+
+1)PROBLEM 1
+if(18-24)-2 wheeler
+if(24-45)-2,4 wheeler
+if(45-60)-2,4,6 wheeler
+
+
+2)PROBLEM 2
+x goes to market-buys 10 apples,24 bananas,8 oranges
+the cost of 1 apple is 15 rupees
+banana-4 rupees
+orange-5 rupees
+
+mother of x -mrs your
+y gave x 700 rupees and buy everything
+
+if the remaining amount matches - shopkeeper is innocent
+else the shopkeeper deceived x
+
+
+
+3) PROBLEM 3 
+if num is even and positive
+positive even
+
+
+
+
+4)PROBLEM 4
+mr z is selected for olympics. 
+he is participating in swimming ......only one winner will be selected.
+z is selected. z has friends named x,your
+x participates in shuttle
+y participates in table tennis
+according to selection committee, the requirements of badminton players are
+1)h: 140 cm
+2)w:factors of 2
+3)bodyfat:<12%
+according to selection committee, the requirements of table tennis are
+1)h:118-148 cm
+2)w: factors of no of medals won by mr z
+3)body fat=14%
+according to previous history, z partcipated in 14 games , out of which he is having success rate of 65%
+
+write a program to check x,y,z travel in same plane or not
+
+
+-----------------------------------------------CONCEPTSSS-----------------------------------------------
+ARRAY
+
+->collection of homogenous elements/data types----TO USE ARRAYS in python we need to use numpy;
+continuous memory location;important numpy
+
+LIST
+
+->collection of heterogenous elements; continuous memory allocation;list is mutable
+append,slicing allowed
+
+TUPLE
+
+->INSTA DATA is stored in TUPLE;insta backend code is in python(DJANGO);tuple is immutable; many crucial information like aadhar num are using tuples
+slicing not allowed
+indexing allowed
+information which cannot be altered use tuple 
+
+SETS
+
+->sets are unordered; (which is major disavantage)
+sets cannot be used to reorder
+cannot allow duplicate values(order of duplicates is not preserved)
+
+DICTIONARY
+
+->key value pair
+in advanced versions they are mutable; and key is immutable and values are mutable
+
+
+
+
+
+hw
+1)prime num or not
+square root method
+n/2 method(for loop)
+2)palindrome or not
+3)check if given num is armstrong or not
+4)check if given num is friendly num or not
+5)check if given num is strong or not
+6)find sum of first n natural numbers
+
+
+---------------------------------------------
+HW
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-> 
