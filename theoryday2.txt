@@ -1,0 +1,128 @@
+-------------------------------------------------LIST------------------------------------------------------------------------
+is mutable- changed or altered once declared
+list is ordered
+list is declared as :
+->my_list=[1,2,3,4]
+printed as
+ ->print(my_list)-------prints[1,2,3,4]
+for printing without square braces and commas
+->print(*my_list)-------prints-1 2 3 4    
+             
+             
+                            LIST METHODS  
+
+=>append()-adding an element at the end of the list
+->my_list.append(99)
+=>insert(x,y)-adding an element at a particular position-2 parameter- index value, and what value is to be inserted
+->my_list.insert(1,89)
+=>reverse- reverses the elements in a list-in backend uses quick sort--time complexity-nlogn
+=>sort()- sorts in ascending order(default)-depends on a parameter
+=>copy()- copies the eleme nts from original list to another list
+pop()- deletes the last element(default)-we can specify a certain index(we can do with index and without index as well)-we can give a certain element to get deleted- 
+if the index is not available it returns index out of bound error
+used to delete an element at a particular position
+index- gives current index value
+length{len()}-returns length of the list
+
+
+                          AGGREGATE FUNCTIONS    
+min
+max
+count- returns count of the element how many times it returned in the list-one parameter
+sum
+concatenate
+
+                        TAKING INPUT FROM USER 
+
+my_list=list(map(int,input().split("")))
+map for more than 1 input
+input- FUNCTIONS
+int - data type
+split-  space separator or defaultly uses space /we can use anything in between as well
+if we give anything in the split - we need to give input including that symbol we gave in the split
+returns the list without the symbol
+my_list=list(map(int,input().split(",")))
+input-1,2,3,4
+output-1 2 3 4
+my_list=list(map(int,input().split("@@")))
+input-1@@2@@3@@4
+output-1 2 3 4
+
+
+my_list=list(map(str,input().split("")))
+input-1 2 3 4
+these are considered a strings not int
+output-1 2 3 4
+
+
+                           PROBLEM 1
+
+user enters a list
+4 options
+1-append a new element
+2-pop
+3-sort
+4-print length
+
+
+-----------------------------------------------------LOOPS------------------------------------------------------------------
+           
+           FOR LOOPS
+
+use of for loops:
+use for computation of n numbers at once
+
+syntax--> for i in range (n)                                   |           for i in n
+range - functions ; when we deal with index value              |           indexing is used for accessing elements in list
+doesnt work for strings                                        |
+                                                               | 
+for i in range(len(list))               in-membership operator |        for printing without using range function
+print(*list[i])                                                |              for i in my_list
+                                                               |                print(i)//here we need not mention index values
+                                                               |                    
+elements-[3,7,8,9]                                             |                    s="hello"
+                                                               |                  for i in s:
+                                                               |                  print(i)
+index     0 1 2 3                                              |             h
+                                                               |             e
+                                                               |             l
+                                                               |             l
+                                                               |             o
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
